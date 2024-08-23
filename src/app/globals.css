@@ -5,3 +5,10 @@
 :root {
   --primary-color: #3b7869;
 }
+
+.home-hero-bg-img {
+  background-image: url(/bg-image-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
