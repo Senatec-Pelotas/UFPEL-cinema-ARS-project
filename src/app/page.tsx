@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import CardBanner from "@/components/CardBanner";
 import Header from "@/components/Header";
+import Carousel from "@/components/Carousel";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
           <button className="bg-color_header w-48 py-1 pl-2 text-start text-white">Filtrar por cidade</button>
           <button className="bg-color_header w-48 py-1 px-6 text-white text-center">Ver todas</button>
         </div>
+        <Carousel/>	
       </section>
     </main>
   );
