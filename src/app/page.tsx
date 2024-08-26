@@ -47,7 +47,7 @@ export default function Home() {
       <section className="bg-white">
         <h1 className="bg-color_header w-[1200px] text-end my-10 py-2 px-6 rounded-r-xl text-3xl text-white">CIDADES</h1>
         <div className="flex gap-12 ml-12">
-          <button className="bg-color_header w-48 py-1 pl-4 pr-2 text-white">Filtrar por cidade</button>
+          <button className="bg-color_header w-48 py-1 pl-2 text-start text-white">Filtrar por cidade</button>
           <button className="bg-color_header w-48 py-1 px-6 text-white text-center">Ver todas</button>
         </div>
       </section>
