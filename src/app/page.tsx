@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import CardBanner from "@/components/CardBanner";
 import Header from "@/components/Header";
 import Carousel from "@/components/Carousel";
+import Carousel2 from "@/components/Carousel2";
 import Footer from "@/components/Footer";
 import CardEdital from "@/components/CardEdital";
 
@@ -59,6 +60,11 @@ export default function Home() {
           <button className="bg-color_header w-48 py-1 px-6 text-white text-center">Ver todas</button>
         </div>
         <Carousel/> 
+        <div className="bg-color_header w-[1000px] my-10 py-2 px-6 rounded-r-xl flex justify-end items-center gap-2">
+          <img src="/icons/Camera.png" alt=""/> 
+          <h1 className="text-3xl text-white">GALERIA DE FOTOS</h1>
+        </div>
+        <Carousel2/>
       </section>
       <section className="bg-white pt-[7.5rem] pb-56">
         <div className="rounded-r-md bg-color_bg_title pl-[31.5rem] pr-4 py-2 mt-[-.25rem] mb-[4.1rem] w-fit">
