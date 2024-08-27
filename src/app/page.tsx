@@ -31,10 +31,14 @@ export default function Home() {
             className="bg-color_card_terciary"
           />
         </div>
-
-        <div className="flex justify-end mt-32">
-          <Button />
-        </div>
+        <Button
+          link="/"
+          content="INSCREVA-SE"
+          textColor="color_bg_title"
+          backgroundColor="white"
+          otherStyles="py-4 px-8 hover:bg-slate-300"
+          positionClasses="flex justify-end mt-32"
+        />
       </section>
       <section className="bg-[#91b3ab] pb-10">
         <div className="rounded-r-md bg-[#f1f1f1] pl-28 pr-64 py-2 mt-[-.25rem] mb-16 w-fit">

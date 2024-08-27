@@ -1,11 +1,22 @@
+interface buttonProps {
+  link: string;
+  content: string;
+  textColor: string;
+  backgroundColor: string;
+  otherStyles: string;
+  positionClasses: string;
+};
+
 import Link from "next/link";
 
-const Button: React.FC = () => {
+const Button = ({ link, content, textColor, backgroundColor, otherStyles, positionClasses }: buttonProps) => {
   return (
-    <Link href={"/"}>
-      <span className="bg-white font-bold py-4 px-8 m-0 text-color_bg_title rounded-lg text-4xl hover:bg-slate-300">
-        INSCREVA-SE
-      </span>
+    <Link href={link}>
+      <div className={positionClasses}>
+        <span className={`bg-${backgroundColor} font-bold text-${textColor} rounded-lg text-4xl ${otherStyles}`}>
+          {content}
+        </span>
+      </div>
     </Link>
   );
 };
