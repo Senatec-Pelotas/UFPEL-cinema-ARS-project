@@ -80,6 +80,19 @@ export default function Home() {
           positionClasses="flex justify-center"
         />
       </section>
+      <section className="bg-white pb-9">
+        <div className="rounded-r-md bg-color_bg_title pl-[74.25rem] pr-4 py-2 mt-[-.25rem] mb-28 w-fit">
+          <h2 className="text-white uppercase font-semibold text-3xl">
+            Parceiros
+          </h2>
+        </div>
+        <div className="flex justify-around items-center">
+          <img className="w-60 h-" src="lei-paulo-gustavo.png" alt="" />
+          <img className="w-82 h-48" src="ufpel.png" alt="" />
+          <img className="w-96 h-24" src="cinema-ufpel.png" alt="" />
+          <img className="w-60 h-" src="campos-neutrais-logo.png" alt="" />
+        </div>
+      </section>
     </main>
   );
 }
