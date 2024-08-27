@@ -39,7 +39,7 @@ export default function Home() {
           textColor="color_bg_title"
           backgroundColor="white"
           otherStyles="py-4 px-8 hover:bg-slate-300"
-          positionClasses="flex justify-end mt-32"
+          positionClasses="flex justify-end mt-32 pb-16"
         />
       </section>
       <section className="bg-[#91b3ab] pb-10">
@@ -82,7 +82,7 @@ export default function Home() {
           positionClasses="flex justify-center"
         />
       </section>
-      <section className="bg-white pb-9">
+      <section className="bg-white pb-28">
         <div className="rounded-r-md bg-color_bg_title pl-[74.25rem] pr-4 py-2 mt-[-.25rem] mb-28 w-fit">
           <h2 className="text-white uppercase font-semibold text-3xl">
             Parceiros
