@@ -55,7 +55,30 @@ export default function Home() {
           <button className="bg-color_header w-48 py-1 pl-2 text-start text-white">Filtrar por cidade</button>
           <button className="bg-color_header w-48 py-1 px-6 text-white text-center">Ver todas</button>
         </div>
-        <Carousel/>	
+        <Carousel/> 
+      </section>
+      <section className="bg-white pb-28">
+        <div className="rounded-r-md bg-color_bg_title pl-[45rem] pr-4 py-2 mt-[-.25rem] mb-20 w-fit">
+            <h2 className="text-white uppercase font-semibold text-3xl">
+              Inscrição
+            </h2>
+        </div>
+        <div className="mx-40 font-semibold italic text-justify text-2xl mb-20">
+          <p className="mb-8">
+            Informações sobre como o usuário deverá fazer a sua inscrição.
+          </p>
+          <p>
+            Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis 
+          </p>
+        </div>
+        <Button
+          link="/"
+          content="INSCREVA-SE"
+          textColor="color_bg_title"
+          backgroundColor="white"
+          otherStyles="shadow-2xl py-4 px-8 hover:bg-slate-300"
+          positionClasses="flex justify-center"
+        />
       </section>
     </main>
   );
