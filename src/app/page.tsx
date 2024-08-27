@@ -3,6 +3,7 @@ import CardBanner from "@/components/CardBanner";
 import Header from "@/components/Header";
 import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
+import CardEdital from "@/components/CardEdital";
 
 export default function Home() {
   return (
@@ -58,6 +59,54 @@ export default function Home() {
           <button className="bg-color_header w-48 py-1 px-6 text-white text-center">Ver todas</button>
         </div>
         <Carousel/> 
+      </section>
+      <section className="bg-white pt-[7.5rem] pb-56">
+        <div className="rounded-r-md bg-color_bg_title pl-[31.5rem] pr-4 py-2 mt-[-.25rem] mb-[4.1rem] w-fit">
+          <h2 className="text-white uppercase font-semibold text-3xl">
+            Edital
+          </h2>
+        </div>
+        <div className="flex justify-center pb-12">
+          <h1 className="text-color_numbers font-bold text-[3.25rem]">
+            Cronograma pós Inscrição
+          </h1>
+        </div>
+        <div className="flex flex-col gap-[5.5rem] items-start mx-52">
+          <CardEdital
+            index="1"
+            content={
+              <>
+                <p>Seleção de projetos de desenvolvimento de longas e séries</p>
+                <ul className="list-disc">
+                  <li>5 Projetos de Desenvolvimento de Longas</li>
+                  <li>5 Projetos de Desenvolvimento de Séries</li>
+                </ul>
+              </>
+            }
+          />
+          <CardEdital
+            index="2"
+            content={
+              <p>Haverá uma banca avaliadora que selecionará 2 projetos, independente da linha</p>
+            }
+            otherStyles="font-medium"
+            positionClasses="self-end"
+          />
+          <CardEdital
+            index="3"
+            content={
+              <p>Serão oferecidas <span className="text-color_numbers">consultorias</span> especializadas, <span className="text-color_numbers">mentorias</span> individualizadas, <span className="text-color_numbers">workshops</span> específicos e rodadas de <span className="text-color_numbers">negócios</span></p>
+            }
+          />
+        </div>
+        <Button
+          link="/"
+          content="ACESSE AQUI NOSSO EDITAL"
+          textColor="white"
+          backgroundColor="color_bg_title"
+          otherStyles="shadow-2xl py-8 px-[5.3rem] hover:bg-slate-300 text-2xl"
+          positionClasses="flex justify-center mt-40"
+        />
       </section>
       <section className="bg-white pb-28">
         <div className="rounded-r-md bg-color_bg_title pl-[45rem] pr-4 py-2 mt-[-.25rem] mb-20 w-fit">
