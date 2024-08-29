@@ -10,7 +10,7 @@ import {
 //falta responsividade, não sei como recolher a navbar
 export default function Header() {
   return (
-    <header className="flex bg-gradient-to-b from-color_bg_title to-color_header drop-shadow-2xlw items-center  h-28 w-full pl-8">
+    <header className="flex bg-gradient-to-b from-color_header to-emerald-900 drop-shadow-2xlw items-center  h-28 w-full pl-8">
       <Image
         src={"/icons/film-icon.svg"}
         className="w-20 h-auto"
