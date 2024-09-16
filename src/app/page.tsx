@@ -158,6 +158,48 @@ export default function Home() {
           />
         </section>
         <section className="bg-white pb-28">
+          <div className="rounded-r-md bg-[#749047] pl-[38rem] pr-4 py-2 mt-[-.25rem] mb-28 w-fit">
+            <h2 className="text-white font-semibold text-3xl">
+              Informações sobre cidades integrantes
+            </h2>
+          </div>
+          <div className="flex justify-center gap-20">
+            <img src="/images/image 8.svg" alt="" />
+            <div className="flex items-center text-xl font-semibold italic gap-20">
+              <div>
+                <p>Amaral Ferrador</p>
+                <p>Arroio do Padre</p>
+                <p>Arroio Grande</p>
+                <p>Canguçu</p>
+                <p>Capão do Leão</p>
+                <p>Cerrito</p>
+                <p>Chuí</p>
+                <p>Herval</p>
+              </div>
+              <div>
+                <p>Jaguarão</p>
+                <p>Morro Redondo</p>
+                <p>Pedras Altas</p>
+                <p>Pedro Osório</p>
+                <p>Pelotas</p>
+                <p>Pinheiro Machado</p>
+                <p>Piratini</p>
+                <p>Rio Grande</p>
+              </div>
+              <div>
+                <p>Santa Vitória do</p>
+                <p>Palmar</p>
+                <p>Santana da Boa</p>
+                <p>Vista</p>
+                <p>São José do Norte</p>
+                <p>São Lourenço do Sul</p>
+                <p>Turuçu</p>
+                <p>Tavares</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="bg-white pb-28">
           <div className="rounded-r-md bg-color_bg_title pl-[74.25rem] pr-4 py-2 mt-[-.25rem] mb-28 w-fit">
             <h2 className="text-white uppercase font-semibold text-3xl">
               Parceiros
