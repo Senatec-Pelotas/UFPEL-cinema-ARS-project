@@ -69,15 +69,8 @@ export default function Home() {
           <Carousel2 />
         </section>
         <section className="bg-white pt-[7.5rem] pb-56">
-          <div className="rounded-r-md bg-color_bg_title pl-[31.5rem] pr-4 py-2 mt-[-.25rem] mb-[4.1rem] w-fit">
-            <h2 className="text-white uppercase font-semibold text-3xl">
-              Edital
-            </h2>
-          </div>
-          <div className="flex justify-center pb-12">
-            <h1 className="text-color_numbers font-bold text-[3.25rem]">
-              Cronograma pós Inscrição
-            </h1>
+          <div className="text-5xl font-bold pl-16 pb-24">
+            <h1>Cronograma pós Inscrição</h1>
           </div>
           <div className="flex flex-col gap-[5.5rem] items-start mx-52">
             <CardEdital
@@ -87,12 +80,14 @@ export default function Home() {
                   <p>
                     Seleção de projetos de desenvolvimento de longas e séries
                   </p>
-                  <ul className="list-disc">
+                  <br />
+                  <ul className="list-disc" style={{marginLeft: '4rem'}}>
                     <li>5 Projetos de Desenvolvimento de Longas</li>
                     <li>5 Projetos de Desenvolvimento de Séries</li>
                   </ul>
                 </>
               }
+              otherStyles="px-16"
             />
             <CardEdital
               index="2"
@@ -119,14 +114,15 @@ export default function Home() {
                   <span className="text-color_numbers">negócios</span>
                 </p>
               }
+              otherStyles="px-12"
             />
           </div>
           <Button
             link="/"
             content="ACESSE AQUI NOSSO EDITAL"
             textColor="white"
-            backgroundColor="color_bg_title"
-            otherStyles="shadow-2xl py-8 px-[5.3rem] hover:bg-slate-300 text-2xl"
+            backgroundColor="color_card_terciary"
+            otherStyles="shadow-2xl py-4 px-16 hover:bg-slate-300 text-2xl"
             positionClasses="flex justify-center mt-40"
           />
         </section>

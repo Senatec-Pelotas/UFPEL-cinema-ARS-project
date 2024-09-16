@@ -11,10 +11,10 @@ const CardEdital = ({ index, content, otherStyles, positionClasses }: CardProps)
   return (
     <div className={`${positionClasses}`}>
       <div className={"flex items-center bg-white rounded-3xl border-color_header border-[1px] w-[50rem] h-[17.875rem]"}>
-        <div className="rounded-r-[3.5rem] rounded-l-3xl bg-color_bg_title">
+        <div className="rounded-r-[3.5rem] rounded-l-3xl bg-[#749047]">
           <h3 className="text-[190px] px-10 font-bold text-color_numbers">{index}</h3>
         </div>
-        <div className={`text-2xl text-color_bg_title text-justify font-bold italic px-24 ${otherStyles}`}>
+        <div className={`text-[1.3rem] text-color_bg_title text-justify font-semibold italic px-24 ${otherStyles}`}>
           {content}
         </div>
       </div>
